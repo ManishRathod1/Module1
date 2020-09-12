@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="lunchcheck">
+  <head>
+    <meta charset="utf-8">
+    <title>project 1</title>
+    <script src="angularmin.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body ng-controller="lunchcheckController">
+    <div class="container">
+      <h1>Please enter the food item which you whould like to have in lunch</h1>
+        <h1>NOTE:"list down the food item with the help of comma"</h1>
+    <h1>Favorite Food:<input type="text" class="items" ng-model="items"><br><br></h1>
+    <button  class="button" ng-click="check()" v>Check whether its too much</button>
+    <label><h1>{{message}}</h1></label>
+    </div>
+  </body>
+</html>

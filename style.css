@@ -1,0 +1,37 @@
+body{
+       background-image: url(pizza.jpg);
+          background-size:cover;
+          background-repeat: no-repeat;
+          background-position: center;
+}
+.container{
+         height: 100vh;
+         display: flex;
+         flex-flow: column wrap;
+         justify-content:center;
+         align-content: center;
+         align-items: center;
+         margin: 5px;
+     }
+
+
+h1,h2{
+        color: white;
+
+}
+.items,
+     .items:focus,
+     input[type='text']{
+         width: 20em;
+         margin: 5px;
+         outline: none;
+         border-radius: 10px;
+         padding: 1px 10px;
+         font-size: 20px;
+}
+.button{
+       padding: 20px;
+       background-color: red;
+       color: white;
+       font-size: 20px
+}
